@@ -1,10 +1,20 @@
 {
   "jspm": {
     "directories": {},
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.4",
+      "gulp": "npm:gulp@^3.9.0",
+      "gulp-connect": "npm:gulp-connect@^2.2.0",
+      "lodash": "npm:lodash@^3.10.1"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
       "core-js": "npm:core-js@^0.9.4"
     }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0"
   }
 }
